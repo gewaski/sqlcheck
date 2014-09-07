@@ -1,0 +1,12 @@
+select c1,c2,c3 from t1 where condi3=a and b=c order by o1,o2;
+select c1,c2,c3 from t1 where condi3=a and b=c order by o1,o2;
+select c1,c2,c3 from t1 where condi3=a and b=c order by o1,o2;
+select c1,c2,c3 from t1 where condi3=a and b=c order by o1,o2;
+select c1,c2,c3 from t1 where condi3=a and b=c order by o1,o2;
+select c1,c2,c3 from t1 where condi3=a and b=c order by o1,o2;
+select c1,c2,c3 from t1 where condi3=a or d=xxx order by o1,o2;
+select c1,c2,c3 from t1 where condi3=a and (c = 1 or b =2) order by o1,o2;
+select c1,c2,c3 from t1 where condi3=a order by o1,o2;
+select c1,c2,c3 from t1,(select * from t2) A where condi3=3 or condi4=5 order   by o1,o2;
+select c1,c2,c3 from t1,(select * from t2) A where condi3=3 or condi4=5 order   by o1,o2;
+update t1 set c1=a,c2=2,c3=3 where condi3=3 or condi4=5 ;
